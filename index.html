@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=\, initial-scale=1.0">
   <title>Contact Us</title>
-
+  <!-- my cart fonts group -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&family=Lexend+Tera:wght@100..900&display=swap" rel="stylesheet">
+  <!-- css files -->
   <link rel="stylesheet" href="contact.css">
 </head>
 
@@ -24,42 +28,40 @@
       <div class="col">
         <form action="">
 
-          <p>Have any questions? Don't hesitate to contact us</p>
+          <p>Have any questions? Don't hesitate to contact us.</p>
 
-          <div clas="flex">
+          <div class="flex">
 
-            <div class="col container">
+            <div class="col">
               <label for="first-name">First Name:</label>
-              <input type="text" id="first-name" name="name" required>
+              <input type="text" id="first-name" name="name" class="text-style" required>
             </div>
 
             <div class="col">
               <label for="last-name">Last Name:</label>
-              <input type="text" id="last-name" name="name" required>
+              <input type="text" id="last-name" name="name" class="text-style" required>
             </div>
+          </div>
 
-            <div class="col">
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" required>
-            </div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="text-style" required>
 
-            <div class="col">
-              <label for="phone">Phone:</label>
-              <input type="tel" id="phone" name="phone" required>
-            </div>
+          <div class="col">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" class="text-style" required>
+          </div>
 
-            <div class="col">
-              <label for="message">Message:</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
+          <div class="col">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="text-style" required></textarea>
+          </div>
 
-            <div class="col">
-              <button type="submit">Send</button>
-            </div>
-
+          <div class="btn-container">
+            <button type="submit">Send</button>
           </div>
 
       </div>
+
       </form>
     </div>
 
